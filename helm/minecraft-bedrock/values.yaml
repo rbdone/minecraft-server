@@ -14,7 +14,7 @@ persistence:
   storageClass: "openebs-hostpath"
   dataDir:
     enabled: true
-    size: 50Gi
+    size: 10Gi
   resourcePolicy: "keep"
 
 minecraftServer:
