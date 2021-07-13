@@ -11,7 +11,7 @@ image:
   tag: v0.1.0
 
 persistence:
-  storageClass: "azurefile"
+  storageClass: "openebs-hostpath"
   dataDir:
     enabled: true
     size: 50Gi
